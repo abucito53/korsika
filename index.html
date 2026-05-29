@@ -151,10 +151,12 @@
   .tab-btn:nth-child(1) { background: var(--ocean); color: rgba(255,255,255,0.65); }
   .tab-btn:nth-child(2) { background: var(--forest); color: rgba(255,255,255,0.65); }
   .tab-btn:nth-child(3) { background: var(--terracotta); color: rgba(255,255,255,0.65); }
+  .tab-btn:nth-child(4) { background: #6b3f8a; color: rgba(255,255,255,0.65); }
   .tab-btn.active { color: white; }
   .tab-btn:nth-child(1).active { background: var(--ocean); box-shadow: inset 0 -4px 0 var(--gold); }
   .tab-btn:nth-child(2).active { background: var(--forest); box-shadow: inset 0 -4px 0 var(--gold); }
   .tab-btn:nth-child(3).active { background: var(--terracotta); box-shadow: inset 0 -4px 0 var(--gold); }
+  .tab-btn:nth-child(4).active { background: #6b3f8a; box-shadow: inset 0 -4px 0 var(--gold); }
   .tab-btn .tab-num { display: block; font-size: 1.6rem; font-family: 'Playfair Display', serif; line-height: 1; margin-bottom: 4px; }
   .tab-btn .tab-sub { display: block; font-size: 0.72rem; opacity: 0.85; }
 
@@ -649,8 +651,8 @@
       <h3>🚗 Anreise – Zürich → Korsika</h3>
 
       <div class="travel-option-row">
-        <h4>⭐ Empfehlung Oktober: Via Livorno → Bastia (ganzjährig sicher)</h4>
-        <p>Zürich → Livorno: ca. <strong>4–5 Std. Autofahrt</strong> (über Gotthard oder San Bernardino, ~430 km). Übernachtung in Livorno empfohlen. Fähre Livorno → Bastia (oder Î.-Rousse): ca. <strong>4,5–5 Std.</strong> (Corsica Ferries / Moby Lines, mehrmals täglich). Ankunft Bastia oder Île-Rousse → je nach Route.</p>
+        <h4>⭐ Empfehlung Oktober: Via Livorno → Bastia (Corsica Ferries, ganzjährig ✅)</h4>
+        <p>Zürich → Livorno: ca. <strong>4–5 Std. Autofahrt</strong> (über Gotthard oder San Bernardino, ~430 km). Übernachtung in Livorno empfohlen. Fähre Livorno → Bastia: ca. <strong>4,5–5 Std.</strong> mit <strong>Corsica Ferries</strong> (ganzjährig ✅). <em>Achtung: Moby Lines fährt Livorno–Bastia nur Juni–September, im Oktober nicht mehr.</em></p>
       </div>
       <div class="travel-option-row">
         <h4>Alternative: Via Nizza → Bastia (Nacht oder Tag)</h4>
@@ -689,8 +691,15 @@
       <div class="travel-step">
         <div class="travel-step-icon">🌅</div>
         <div class="travel-step-info">
-          <strong>Option B: Fähre ab Ajaccio → Toulon (Nacht)</strong>
-          <span>Nachtfähre Ajaccio → Toulon (~11 Std.), dann Autofahrt ~5 Std. zurück nach Zürich via A7.</span>
+          <strong>Option B: Fähre ab Ajaccio → Toulon (Nacht) ✅ ganzjährig</strong>
+          <span>Corsica Ferries, ~13×/Woche, Nachtabfahrt ~20:30 Uhr, Ankunft ~08:00 Uhr. Dann ~5 Std. nach Zürich via A7. <a href="https://www.corsica-ferries.fr/" target="_blank">corsica-ferries.fr</a></span>
+        </div>
+      </div>
+      <div class="travel-step">
+        <div class="travel-step-icon">🚢</div>
+        <div class="travel-step-info">
+          <strong>Option B2: Fähre ab Ajaccio → Marseille (Nacht) ✅ ganzjährig</strong>
+          <span>Corsica Linea täglich + La Méridionale jeden 2. Tag, ~10–12 Std. Dann ~4,5 Std. nach Zürich via A7/A6 – schnellste Heimfahrt. <a href="https://www.corsicalinea.com/" target="_blank">corsicalinea.com</a> · <a href="https://www.lameridionale.fr/" target="_blank">lameridionale.fr</a></span>
         </div>
       </div>
       <div class="travel-step">
@@ -709,8 +718,10 @@
       </div>
 
       <div class="ferry-best" style="background:linear-gradient(135deg, var(--forest) 0%, var(--dark) 100%);">
-        <strong>💡 Tipp Rückreise für Route 1</strong>
-        Route 1 endet in Porto/Westküste → Fähre ab Ajaccio nach Toulon (Nachtfähre La Méridionale / Corsica Linea) ist ideal. Morgens in Toulon, am Nachmittag wieder in Zürich. <a href="https://www.lameridionale.fr/" target="_blank" style="color:var(--gold)">lameridionale.fr</a>
+        <strong>💡 Tipp Rückreise (Route 1 &amp; 2)</strong>
+        Nachtfähre ab Ajaccio – zwei zuverlässige Optionen im Oktober:<br>
+        → <strong>Toulon</strong>: Corsica Ferries, ~20:30 Uhr ab, ~08:00 Uhr an. Dann 5 Std. nach Zürich. <a href="https://www.corsica-ferries.fr/" target="_blank" style="color:var(--gold)">corsica-ferries.fr</a><br>
+        → <strong>Marseille</strong>: Corsica Linea täglich, ~19:00 Uhr ab, ~07:00 Uhr an. Dann 4,5 Std. nach Zürich – etwas schneller. <a href="https://www.corsicalinea.com/" target="_blank" style="color:var(--gold)">corsicalinea.com</a>
       </div>
     </div>
   </div>
@@ -720,7 +731,7 @@
     <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--dark);margin-bottom:18px;">📅 Grober Zeitplan – 12 Tage (Zürich → Korsika → Zürich)</h3>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;">
       <div style="background:#e8f2f7;border-radius:8px;padding:10px 12px;font-size:0.8rem;border-left:3px solid var(--ocean)"><strong>Tag 1</strong><br>Zürich → Savona/Livorno. Abends Fähre buchen.</div>
-      <div style="background:#e8f2f7;border-radius:8px;padding:10px 12px;font-size:0.8rem;border-left:3px solid var(--ocean)"><strong>Tag 2</strong><br>Ankunft Île-Rousse oder Ajaccio (je nach Route). Erster korsischer Eindruck.</div>
+      <div style="background:#e8f2f7;border-radius:8px;padding:10px 12px;font-size:0.8rem;border-left:3px solid var(--ocean)"><strong>Tag 2</strong><br>Ankunft Bastia oder Ajaccio (je nach Route). Erster korsischer Eindruck.</div>
       <div style="background:#fdf5e4;border-radius:8px;padding:10px 12px;font-size:0.8rem;border-left:3px solid var(--gold)"><strong>Tage 3–4</strong><br>Erste Hauptbasis. Strand, Erholung, Eingewöhnen.</div>
       <div style="background:#fdf5e4;border-radius:8px;padding:10px 12px;font-size:0.8rem;border-left:3px solid var(--gold)"><strong>Tage 5–6</strong><br>Canyoning! Bergwanderung, Gumpen.</div>
       <div style="background:#edf6f0;border-radius:8px;padding:10px 12px;font-size:0.8rem;border-left:3px solid var(--forest)"><strong>Tage 7–8</strong><br>Zweite Basis. Sightseeing, Camping-Nacht.</div>
@@ -745,13 +756,15 @@
       <button class="map-btn" onclick="setMapRoute(1)">Route 1 – Süd/West</button>
       <button class="map-btn" onclick="setMapRoute(2)">Route 2 – Nord/Mitte</button>
       <button class="map-btn" onclick="setMapRoute(3)">Route 3 – Mitte/Süd</button>
+      <button class="map-btn" onclick="setMapRoute(4)">Route 4 – Nebbio/Süd</button>
     </div>
     <canvas id="mapCanvas" class="map-canvas"></canvas>
     <div id="mapTooltip" style="display:none;position:fixed;background:var(--dark);color:white;padding:10px 14px;border-radius:8px;font-size:0.82rem;pointer-events:none;z-index:999;max-width:200px;line-height:1.5;"></div>
     <div class="map-legend">
-      <div class="legend-item"><div class="legend-dot" style="background:#2a6b8a"></div> Route 1 (Bastia→Calvi→Corte→Bavella→Bonifacio→Ajaccio)</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#3a6349"></div> Route 2 (Bastia→Corte→Bavella→Porto→Ajaccio)</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#c0694a"></div> Route 3 (Ajaccio→Porto→Corte→Solenzara→Bastia)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#3a3f4a"></div> Route 1 (Bastia→Calvi→Corte→Bavella→Bonifacio→Ajaccio)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#3a3f4a"></div> Route 2 (Bastia→Corte→Bavella→Porto→Ajaccio)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#3a3f4a"></div> Route 3 (Ajaccio→Porto→Corte→Solenzara→Bastia)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#3a3f4a"></div> Route 4 (Bastia→St-Florent→Corte→Solenzara→Bonifacio→Ajaccio)</div>
       <div class="legend-item"><div class="legend-dot" style="background:#d4a843"></div> Fährhäfen / Anreise</div>
       <div class="legend-item"><div class="legend-dot" style="background:#888"></div> Schweiz / Italien (Anreise)</div>
     </div>
@@ -760,7 +773,7 @@
 
 <!-- TABS -->
 <div class="section-divider">
-  <div class="divider-label">Die drei Routenvorschläge</div>
+  <div class="divider-label">Die vier Routenvorschläge</div>
 </div>
 
 <div class="tabs-container">
@@ -778,7 +791,12 @@
     <button class="tab-btn" onclick="showTab(2)">
       <span class="tab-num">3</span>
       <span>Westen → Osten</span>
-      <span class="tab-sub">Ajaccio ✈ · Porto · Corte · Solenzara · Bastia ⛴</span>
+      <span class="tab-sub">Ajaccio ⛴ · Porto · Corte · Solenzara · Bastia ⛴</span>
+    </button>
+    <button class="tab-btn" onclick="showTab(3)">
+      <span class="tab-num">4</span>
+      <span>Nebbio → Süden</span>
+      <span class="tab-sub">Bastia ⛴ · St-Florent · Corte · Solenzara · Bonifacio · Ajaccio ⛴</span>
     </button>
   </div>
 
@@ -801,7 +819,7 @@
     </div>
 
     <div style="background:#e8f2f7;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:0.88rem;color:var(--ocean);border-left:4px solid var(--ocean);">
-      <strong>🚢 Anreise:</strong> <strong>Savona → Bastia</strong> (ganzjährig, ~10 Std. Nachtfähre) oder <strong>Livorno → Bastia</strong> (~5 Std.). Von Bastia dann 1,5 Std. nach Calvi.<br>
+      <strong>🚢 Anreise:</strong> <strong>Savona → Bastia</strong> (ganzjährig, ~10 Std. Nachtfähre) oder <strong>Livorno → Bastia</strong> (~5 Std., nur Corsica Ferries im Oktober ✅). Von Bastia dann 1,5 Std. nach Calvi.<br>
       <strong>🏠 Rückreise:</strong> Nach Bonifacio weiter nach <strong>Ajaccio</strong> (1,5 Std.) → Nachtfähre Ajaccio → Toulon/Marseille. Oder: ab Bonifacio Kurzfähre → Sardinien → Festland (abenteuerlicher, aber komplex mit Kind).
     </div>
 
@@ -1053,7 +1071,7 @@
     </div>
 
     <div style="background:#e8f2f7;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:0.88rem;color:var(--ocean);border-left:4px solid var(--ocean);">
-      <strong>🚢 Anreise:</strong> <strong>Savona → Bastia</strong> (ganzjährig, ~10 Std. Nachtfähre) oder <strong>Livorno → Bastia</strong> (~5 Std.). Von Bastia dann 1,5 Std. nach Calvi/2 Std. nach Corte.<br>
+      <strong>🚢 Anreise:</strong> <strong>Savona → Bastia</strong> (ganzjährig, ~10 Std. Nachtfähre) oder <strong>Livorno → Bastia</strong> (~5 Std., nur Corsica Ferries im Oktober ✅). Von Bastia dann 1,5 Std. nach Calvi/2 Std. nach Corte.<br>
       <strong>🏠 Rückreise:</strong> Route endet in Porto → 1,5 Std. nach <strong>Ajaccio</strong> → Nachtfähre Ajaccio → Toulon/Marseille. Sehr entspannt mit Kind.
     </div>
 
@@ -1496,6 +1514,267 @@
     </div>
   </div>
 
+
+  <!-- ============================
+       ROUTE 4
+  ============================= -->
+  <div class="tab-panel" id="tab-3">
+    <div class="route-header">
+      <div class="route-title-block">
+        <div class="route-label">Route 4 · Nebbio &amp; wilder Süden · Ankunft Bastia · Abfahrt Ajaccio</div>
+        <div class="route-title">Saint-Florent, Bergherz, Ostküste &amp; Bonifacio</div>
+        <div class="route-subtitle">Von Bastia ins charmante Nebbio, über das Bergherz Korsikas zur wilden Ostküste – mit Bavella als Tagesausflug – und zum Südzipfel Bonifacio. Ohne Calvi, dafür mit mehr Tiefe.</div>
+      </div>
+      <div class="route-meta">
+        <div class="meta-pill green"><span class="icon">👶</span> Sehr familienfreundlich</div>
+        <div class="meta-pill blue"><span class="icon">⛴</span> Bastia an · Ajaccio ab</div>
+        <div class="meta-pill gold"><span class="icon">🌊</span> Strand + Berg + Süden</div>
+        <div class="meta-pill orange"><span class="icon">🚗</span> Ø 1–1,5 Std/Fahrtag</div>
+      </div>
+    </div>
+
+    <div style="background:#e8f2f7;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:0.88rem;color:var(--ocean);border-left:4px solid var(--ocean);">
+      <strong>🚢 Anreise:</strong> <strong>Savona → Bastia</strong> (Corsica Ferries, Nachtfähre ~10 Std.) oder <strong>Livorno → Bastia</strong> (~5 Std., nur Corsica Ferries im Oktober ✅). Von Bastia nur 25 Min. nach Saint-Florent.<br>
+      <strong>🏠 Rückreise:</strong> Von Bonifacio nach <strong>Ajaccio</strong> (1,5 Std.) → Nachtfähre nach <strong>Toulon</strong> (Corsica Ferries) oder <strong>Marseille</strong> (Corsica Linea) – beide ganzjährig ✅.
+    </div>
+
+    <div class="route-map-bar">
+      <div class="map-stop"><span class="dot" style="background:var(--gold)"></span> Bastia ⛴ ankommen</div>
+      <span class="map-arrow">→</span>
+      <div class="map-stop"><span class="dot"></span> <a href="https://maps.google.com/?q=Saint-Florent,Korsika" target="_blank">Saint-Florent</a></div>
+      <span class="map-arrow">→</span>
+      <div class="map-stop"><span class="dot"></span> <a href="https://maps.google.com/?q=Corte,Korsika" target="_blank">Corte</a></div>
+      <span class="map-arrow">→</span>
+      <div class="map-stop"><span class="dot"></span> <a href="https://maps.google.com/?q=Solenzara,Korsika" target="_blank">Solenzara</a></div>
+      <span class="map-arrow">→</span>
+      <div class="map-stop"><span class="dot"></span> <a href="https://maps.google.com/?q=Bonifacio,Korsika" target="_blank">Bonifacio</a></div>
+      <span class="map-arrow">→</span>
+      <div class="map-stop"><span class="dot" style="background:var(--gold)"></span> Ajaccio ⛴ abfahren</div>
+    </div>
+
+    <div class="stops-grid">
+
+      <!-- STOP 1: Saint-Florent -->
+      <div class="stop-card">
+        <div class="stop-card-header">
+          <div class="stop-num ocean">1</div>
+          <div class="stop-title-group">
+            <h3><a href="https://maps.google.com/?q=Saint-Florent,Korsika" target="_blank">Saint-Florent &amp; Nebbio</a></h3>
+            <span class="nights">📅 Tage 1–3 · 2 Nächte · 25 Min. ab Bastia</span>
+          </div>
+        </div>
+        <div class="stop-card-body">
+          <div class="card-section">
+            <h4>🎯 Aktivitäten</h4>
+            <ul>
+              <li>Hafenspaziergang &amp; Altstadt – charmanter als Calvi, viel ruhiger im Oktober</li>
+              <li>Bootsfahrt zu <a href="https://maps.google.com/?q=Plage+de+Saleccia,Korsika" target="_blank">Plage de Saleccia &amp; Lotu</a> – Traumstrände im Désert des Agriates, im Oktober fast menschenleer</li>
+              <li>Sentier du Douanier – Küstenwanderung entlang der Agriates (3–5 Std.)</li>
+              <li>Weinregion <a href="https://maps.google.com/?q=Patrimonio,Korsika" target="_blank">Patrimonio</a> – 10 Min. entfernt, beste korsische AOC-Weine</li>
+              <li>Zitadelle &amp; Cathédrale de Nebbio – romanische Kirche aus dem 12. Jhd.</li>
+              <li>Baden am <a href="https://maps.google.com/?q=Plage+de+la+Roya,Saint-Florent" target="_blank">Plage de la Roya</a> – Sandstrand direkt beim Ort</li>
+            </ul>
+          </div>
+          <div class="card-section">
+            <h4>🏕 Unterkunft</h4>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★ · April–Oktober geöffnet ✅</div>
+              <div class="accom-name"><a href="https://www.hotel-bellevue-saint-florent.fr/" target="_blank">Hôtel Bellevue – Saint-Florent</a></div>
+              <div class="accom-info">150 m vom Hafen, 50 m zum Strand, Infinity-Pool mit Golfblick, Tennis, Familienzimmer. Sehr zentrale Lage. Tel: +33 4 95 37 00 06</div>
+              <span class="price-tag">ca. 90–160 €/Nacht</span>
+            </div>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel · Ganzjährig geöffnet ✅</div>
+              <div class="accom-name"><a href="https://www.residencesanroccu.com/" target="_blank">Résidence San Roccu – Saint-Florent</a></div>
+              <div class="accom-info">Appart-Hôtel im Ortskern, 200 m zum Fähranleger für Saleccia-Strände, Apartments mit Küche ideal für Familien. Ganzjährig geöffnet. Tel: +33 4 95 37 13 29</div>
+              <span class="price-tag">ca. 80–140 €/Nacht</span>
+            </div>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★ · Oktober geöffnet – bestätigen ⚠</div>
+              <div class="accom-name"><a href="https://www.hotel-flor.com/" target="_blank">Hôtel Flor – Saint-Florent</a></div>
+              <div class="accom-info">Zentrum, privater Parkplatz (selten in St-Florent!), 2 Min. zum Bootssteg für Saleccia. Frisch renovierte Zimmer &amp; Apartments. Tel: +33 4 95 37 00 03</div>
+              <span class="price-tag">ca. 70–120 €/Nacht</span>
+              <span class="warning-tag">⚠ Oktober-Datum bestätigen</span>
+            </div>
+            <div class="accom-card camping">
+              <div class="accom-type">Camping ⛺ · bis Anfang Oktober ⚠ (5. Okt. 2025)</div>
+              <div class="accom-name"><a href="https://camping-corse-bord-de-mer.com/camping-dolzo/" target="_blank">Camping d'Olzo – Saint-Florent</a></div>
+              <div class="accom-info">Direkt am Meer, Pool, Restaurant, 2 km vom Zentrum. Schliesst Anfang Oktober – für Anfang Oktober noch möglich, bitte Datum prüfen. Tel: +33 4 95 37 14 30</div>
+              <span class="price-tag">ca. 20–35 €/Nacht (Zelt)</span>
+              <span class="warning-tag">⚠ Schliesst ca. 5. Oktober</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 2: Corte -->
+      <div class="stop-card">
+        <div class="stop-card-header">
+          <div class="stop-num forest">2</div>
+          <div class="stop-title-group">
+            <h3><a href="https://maps.google.com/?q=Corte,Korsika" target="_blank">Corte &amp; Restonica-Schlucht</a></h3>
+            <span class="nights">📅 Tage 3–5 · 2 Nächte · 1,5 Std. ab Saint-Florent</span>
+          </div>
+        </div>
+        <div class="stop-card-body">
+          <div class="card-section">
+            <h4>🎯 Aktivitäten</h4>
+            <ul>
+              <li>Citadelle Corte + Musée de la Corse – korsisches Nationalgefühl</li>
+              <li><a href="https://maps.google.com/?q=Gorges+de+la+Restonica,Korsika" target="_blank">Gorges de la Restonica</a> – Wanderung zu Bergseen Melo &amp; Capitello</li>
+              <li>Baden in den Gumpen der Restonica – glasklares Bergwasser</li>
+              <li>Canyoning <a href="https://maps.google.com/?q=Gorges+du+Tavignano,Korsika" target="_blank">Tavignano-Canyon</a> – ab 6 J., leicht, sehr familienfreundlich</li>
+              <li>Abendessen in Corte – authentische korsische Bergküche</li>
+            </ul>
+          </div>
+          <div class="card-section">
+            <h4>🏕 Unterkunft</h4>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★★ · Oktober geöffnet ✅ · Michelin-Schlüssel 2024</div>
+              <div class="accom-name"><a href="https://www.dominique-colonna.com/" target="_blank">Hôtel Dominique Colonna</a></div>
+              <div class="accom-info">Direkt an der Restonica, beheizter Pool, Massagen, Yoga-Studio. Beste Familien-Adresse in Corte. Tel: +33 4 95 45 25 65</div>
+              <span class="price-tag">ca. 130–200 €/Nacht</span>
+            </div>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★ · April–Oktober geöffnet ✅</div>
+              <div class="accom-name"><a href="https://www.hotelrestonica.com/" target="_blank">Hôtel de la Restonica</a></div>
+              <div class="accom-info">7 Zimmer in altem Familienhaus, direkt am Fluss, Pool, Restaurant. Sehr authentisch. Tel: +33 4 95 45 25 25</div>
+              <span class="price-tag">ca. 80–140 €/Nacht</span>
+            </div>
+            <div class="accom-card camping">
+              <div class="accom-type">Camping ★★ · 1. Mai – 30. Oktober ✅ (Oktober verifiziert)</div>
+              <div class="accom-name"><a href="https://www.alividiarestonica.com/" target="_blank">Camping Alivi di a Restonica – Corte</a></div>
+              <div class="accom-info">Direkt am Fluss, 10 Gehmin. zur Altstadt, 82 Stellplätze + Mobilhomes, Bar, Brötchenservice. Tel: +33 4 20 04 09 92</div>
+              <span class="price-tag">ab 22 €/Nacht (Zelt)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 3: Solenzara -->
+      <div class="stop-card">
+        <div class="stop-card-header">
+          <div class="stop-num terra">3</div>
+          <div class="stop-title-group">
+            <h3><a href="https://maps.google.com/?q=Solenzara,Korsika" target="_blank">Solenzara &amp; Bavella (Tagesausflug)</a></h3>
+            <span class="nights">📅 Tage 5–8 · 3 Nächte · 1,5 Std. ab Corte</span>
+          </div>
+        </div>
+        <div class="stop-card-body">
+          <div class="card-section">
+            <h4>🎯 Aktivitäten</h4>
+            <ul>
+              <li><a href="https://maps.google.com/?q=Gorges+de+Solenzara,Korsika" target="_blank">Solenzara-Schlucht</a> – Gumpen-Baden, Wasserwanderung, Canyoning für Familien</li>
+              <li><strong>Tagesausflug Col de Bavella</strong> – nur 50–60 Min. über D268 (eine der schönsten Bergstrassen Korsikas)</li>
+              <li>Wanderung <a href="https://maps.google.com/?q=Trou+de+la+Bombe,Korsika" target="_blank">Trou de la Bombe</a> – von Bavella aus, einfach &amp; spektakulär</li>
+              <li><strong>Canyoning Pulischellu</strong> mit <a href="https://www.corsica-canyon.com/" target="_blank">Corsica Canyon</a> – ab 8 J., bestes Familiencanyoning der Insel</li>
+              <li><a href="https://maps.google.com/?q=Plage+de+Pinarellu,Korsika" target="_blank">Plage de Pinarellu</a> – traumhafter Sandstrand, 20 Min. südlich</li>
+              <li>Abend in Solenzara – kleine Marina, entspannte Restaurants</li>
+            </ul>
+          </div>
+          <div class="card-section">
+            <h4>🏕 Unterkunft</h4>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★ · Oktober geöffnet</div>
+              <div class="accom-name"><a href="https://www.booking.com/hotel/fr/les-3-terrasses.html" target="_blank">Hôtel Les 3 Terrasses – Solenzara (Booking)</a></div>
+              <div class="accom-info">Direkt an der Solenzara-Marina, Meerblick, strategisch ideal für Bavella-Tagesausflug. Familienfreundlich.</div>
+              <span class="price-tag">ca. 80–140 €/Nacht</span>
+            </div>
+            <div class="accom-card camping">
+              <div class="accom-type">Camping ⛺ · Oktober geöffnet – bestätigen ⚠</div>
+              <div class="accom-name"><a href="https://upontegrossu.com/" target="_blank">Camping U Ponte Grossu – Solenzara</a></div>
+              <div class="accom-info">Direkt am Fluss, Restaurant, 10 km zum Strand, 40 km zum Col de Bavella. Canyoning-Basis vor Ort. Tel: +33 4 95 48 26 61</div>
+              <span class="price-tag">ca. 15–25 €/Nacht</span>
+              <span class="warning-tag">⚠ Oktober-Öffnung bestätigen</span>
+            </div>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel · Oktober geöffnet</div>
+              <div class="accom-name"><a href="https://www.booking.com/hotel/fr/residence-marina-di-solaro.html" target="_blank">Résidence Marina di Solaro (Booking)</a></div>
+              <div class="accom-info">Bungalow-Anlage, Meerblick, Pool, familienfreundlich. Oktober-Verfügbarkeit bei Booking anfragen.</div>
+              <span class="price-tag">ca. 80–130 €/Nacht</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 4: Bonifacio → Ajaccio -->
+      <div class="stop-card">
+        <div class="stop-card-header">
+          <div class="stop-num ocean">4</div>
+          <div class="stop-title-group">
+            <h3><a href="https://maps.google.com/?q=Bonifacio,Korsika" target="_blank">Bonifacio</a> → <a href="https://maps.google.com/?q=Ajaccio,Korsika" target="_blank">Ajaccio ⛴</a></h3>
+            <span class="nights">📅 Tage 8–10 · 2 Nächte · 1 Std. ab Solenzara · Fähre ab Ajaccio (+1,5 Std.)</span>
+          </div>
+        </div>
+        <div class="stop-card-body">
+          <div class="card-section">
+            <h4>🎯 Aktivitäten</h4>
+            <ul>
+              <li>Altstadt auf den Klippen – <a href="https://maps.google.com/?q=Escalier+du+Roi+d'Aragon,Bonifacio" target="_blank">Escalier du Roi d'Aragon</a></li>
+              <li>Bootsfahrt zu den <a href="https://maps.google.com/?q=Grottes+Marines,Bonifacio" target="_blank">Meereshöhlen</a> – im Oktober noch möglich</li>
+              <li><a href="https://maps.google.com/?q=Plage+de+la+Tonnara,Bonifacio" target="_blank">Plage de la Tonnara</a> – flaches Wasser, ideal für Kinder</li>
+              <li>Hafen-Abend mit korsischem Abendessen auf den Klippen</li>
+              <li>Am letzten Tag: 1,5 Std. nach Ajaccio → Stadtbummel → Nachtfähre</li>
+            </ul>
+          </div>
+          <div class="card-section">
+            <h4>🏕 Unterkunft</h4>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★★ · 1. April – 31. Oktober ✅</div>
+              <div class="accom-name"><a href="https://hotel-genovese.com/" target="_blank">Hôtel Genovese – Bonifacio</a></div>
+              <div class="accom-info">In der Zitadelle, Blick auf Hafen, beheizter Pool, Spa, Restaurant. Familiärste Luxusadresse in der Altstadt. Tel: +33 4 95 73 12 34</div>
+              <span class="price-tag">ca. 150–280 €/Nacht</span>
+            </div>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★★ · Oktober geöffnet ✅</div>
+              <div class="accom-name"><a href="https://www.hotel-caladigreco.com/" target="_blank">Hôtel Cala di Greco – Bonifacio</a></div>
+              <div class="accom-info">2 km vom Zentrum, 2 Aussenpools, Suiten mit Privatpool, Spa. Sehr ruhig, tolle Natur. Oktober 9.6/10.</div>
+              <span class="price-tag">ca. 180–400 €/Nacht</span>
+            </div>
+            <div class="accom-card hotel">
+              <div class="accom-type">Hotel ★★★ · Oktober geöffnet</div>
+              <div class="accom-name"><a href="https://www.booking.com/hotel/fr/solemare-bonifacio.html" target="_blank">Hôtel Solemare – Bonifacio (Booking)</a></div>
+              <div class="accom-info">Pool nahe Strand, bestes Preis-Leistungs-Verhältnis in Bonifacio. Letzter Abend vor der Fähre.</div>
+              <span class="price-tag">ca. 80–140 €/Nacht</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /stops-grid -->
+
+    <div class="pro-con-box">
+      <div class="pro-box">
+        <h4>✅ Vorteile dieser Route</h4>
+        <ul>
+          <li>Saint-Florent statt Calvi – ruhiger, authentischer, im Oktober kaum Touristen</li>
+          <li>Désert des Agriates &amp; Saleccia: einsame Traumstrände im Oktober</li>
+          <li>Bavella als Tagesausflug von Solenzara: spart eine Basis, kein Qualitätsverlust</li>
+          <li>Bonifacio als krönender Abschluss – dramatischster Ort Korsikas</li>
+          <li>Logische Schleife Bastia → Norden → Mitte → Osten → Süden → Ajaccio</li>
+          <li>Kürzeste Etappen: alle unter 1,5 Std. Fahrzeit</li>
+        </ul>
+      </div>
+      <div class="con-box">
+        <h4>⚠ Zu bedenken</h4>
+        <ul>
+          <li>Camping d'Olzo schliesst ca. 5. Oktober – knapp für Anfang Oktober</li>
+          <li>Saint-Florent Hotels: Oktober-Öffnung für einige bestätigen</li>
+          <li>Keine Westküste (Porto/Calanche) – dafür Route 2 oder 3 wählen</li>
+          <li>Letzter Tag: Bonifacio → Ajaccio (1,5 Std.) zur Nachtfähre einplanen</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="recommendation-box">
+      <div class="rec-star">🏛</div>
+      <div class="rec-text">
+        <h3>Für wen eignet sich Route 4?</h3>
+        <p>Für alle, die <strong>Saint-Florent &amp; die Agriates-Strände</strong> erleben wollen, Calvi auslassen, aber Corte, das beste Canyoning Korsikas (Pulischellu) und Bonifacio nicht verpassen wollen. Die kompakteste und logistisch eleganteste Route – mit Bavella als Tagesausflug von Solenzara.</p>
+      </div>
+    </div>
+  </div>
+
 </div><!-- /tabs-container -->
 
 <!-- FINAL RECOMMENDATION -->
@@ -1504,11 +1783,11 @@
     <div>
       <h2>Unsere Empfehlung für <span>Anfang Oktober</span> mit Kind</h2>
       <p>Nach Abwägung aller Faktoren empfehlen wir <strong>Route 1</strong> (Bastia an → Calvi · Corte · Bavella · Bonifacio → Ajaccio ab) als stärkste Gesamtempfehlung.</p>
-      <p>Anreise: <strong>Savona → Bastia</strong> (Nachtfähre, ~10 Std.) oder <strong>Livorno → Bastia</strong> (~5 Std., Tagesfähre). Von Bastia 1,5 Std. nach Calvi. Rückreise: Nachtfähre Ajaccio → Toulon. Das Canyoning in Bavella ist das Familien-Highlight der Insel.</p>
+      <p>Anreise: <strong>Savona → Bastia</strong> (Nachtfähre, ~10 Std.) oder <strong>Livorno → Bastia</strong> (~5 Std., nur Corsica Ferries im Oktober ✅). Von Bastia 1,5 Std. nach Calvi. Rückreise: Nachtfähre Ajaccio → Toulon. Das Canyoning in Bavella ist das Familien-Highlight der Insel.</p>
     </div>
     <div>
       <ul class="tip-list">
-        <li><strong>Anreise Route 1+2:</strong> <strong>Savona → Bastia</strong> (Nachtfähre, ~10 Std., ideal für Familien) oder <strong>Livorno → Bastia</strong> (~5 Std. tagsüber). Von Bastia 1,5 Std. nach Calvi.</li>
+        <li><strong>Anreise Route 1+2:</strong> <strong>Savona → Bastia</strong> (Corsica Ferries, Nachtfähre ~10 Std.) oder <strong>Livorno → Bastia</strong> (~5 Std., nur Corsica Ferries – Moby endet Sept.). Von Bastia 1,5 Std. nach Calvi.</li>
         <li><strong>Rückreise:</strong> Ajaccio → Toulon (La Méridionale / Corsica Linea). <a href="https://www.lameridionale.fr/" target="_blank" style="color:var(--gold)">lameridionale.fr</a></li>
         <li><strong>Camping:</strong> Camping Bavella Vista (Zonza, bis 31. Okt.) + Camping La Pinède (Calvi, bis 17. Nov.) – bestätigen!</li>
         <li><strong>Canyoning:</strong> <a href="https://www.corsica-canyon.com/" target="_blank" style="color:var(--gold)">Corsica Canyon</a> für Pulischellu/Bavella frühzeitig buchen</li>
@@ -1634,23 +1913,24 @@ const MAINLAND = [
 const PLACES = [
   // Anreise
   { name: 'Zürich', lat: 47.38, lon: 8.54, type: 'home', routes: [0,1,2,3], detail: 'Startpunkt · ~3 Std. nach Savona' },
-  { name: 'Savona', lat: 44.31, lon: 8.48, type: 'ferry', routes: [0,1,2,3], detail: 'Fährhafen · → Bastia (ganzjährig, ~10 Std.) · Savona→Île-Rousse nur Juli–Sept!' },
-  { name: 'Livorno', lat: 43.55, lon: 10.31, type: 'ferry', routes: [0,1,2,3], detail: 'Fährhafen · Schnellste Überfahrt → Bastia (4,5 Std.) · Moby / Corsica Ferries' },
-  { name: 'Nizza', lat: 43.70, lon: 7.27, type: 'ferry', routes: [0,3], detail: 'Fährhafen · → Île-Rousse ~6 Std. (bis Oktober, prüfen!) · → Bastia ~6,5 Std.' },
-  { name: 'Toulon', lat: 43.12, lon: 5.93, type: 'ferry', routes: [0,1,2], detail: 'Fährhafen Rückreise · Nachtfähre Ajaccio → Toulon (La Méridionale)' },
+  { name: 'Savona', lat: 44.31, lon: 8.48, type: 'ferry', routes: [0,1,2,3], detail: 'Fährhafen · → Bastia ganzjährig ~10 Std. (Corsica Ferries) ✅' },
+  { name: 'Livorno', lat: 43.55, lon: 10.31, type: 'ferry', routes: [0,1,2,3], detail: 'Fährhafen · → Bastia ~4,5 Std. (Corsica Ferries ganzjährig ✅)\nMoby Lines nur Juni–Sept ⚠️' },
+  { name: 'Nizza', lat: 43.70, lon: 7.27, type: 'ferry', routes: [0,3], detail: 'Fährhafen · → Bastia ~6,5 Std. (Corsica Ferries)' },
+  { name: 'Marseille', lat: 43.30, lon: 5.37, type: 'ferry', routes: [0,1,2,3], detail: 'Fährhafen Rückreise ✅ ganzjährig\nCorsica Linea täglich + La Méridionale jeden 2. Tag\n→ Zürich ~4,5 Std.' },
+  { name: 'Toulon', lat: 43.12, lon: 5.93, type: 'ferry', routes: [0,1,2], detail: 'Rückreise ✅ ganzjährig · Corsica Ferries ~13×/Woche\nAbfahrt ~20:30 Uhr, Ankunft ~08:00 Uhr' },
 
   // Korsika – Fährhäfen
-  { name: 'Île-Rousse', lat: 42.638, lon: 8.936, type: 'port', routes: [0,1,2,3], detail: 'ℹ️ Hafen Île-Rousse – 30 Min. von Calvi\n⚠️ Fähre Savona/Nizza→Î.-Rousse nur Juli–Sept\nFür Oktober: Bastia nutzen (Route 1+2)' },
   { name: 'Bastia', lat: 42.700, lon: 9.450, type: 'port', routes: [0,3], detail: 'Fährhafen · Fähre ab Savona/Livorno\nAbfahrt Route 3 (→ Savona)' },
-  { name: 'Ajaccio', lat: 41.919, lon: 8.738, type: 'port', routes: [0,1,2,3], detail: 'Fährhafen · Abfahrt Route 1+2 (Nachtfähre → Toulon)\nAnkunft Route 3 (ab Nizza/Toulon)' },
+  { name: 'Ajaccio', lat: 41.919, lon: 8.738, type: 'port', routes: [0,1,2,3], detail: 'Abfahrt Route 1+2: → Toulon (Corsica Ferries ✅) oder → Marseille (Corsica Linea ✅)\nAnkunft Route 3 (ab Toulon/Marseille)' },
 
   // Reisestopps
-  { name: 'Calvi', lat: 42.558, lon: 8.757, type: 'stop', col: '#2a6b8a', routes: [1], detail: 'Route 1 · Stop 1 · 2 Nächte\nZitadelle, Plage de Calvi, Balagne-Dörfer\n30 Min. von Île-Rousse' },
-  { name: 'Corte', lat: 42.302, lon: 9.149, type: 'stop', col: '#2a6b8a', routes: [1,2,3], detail: 'Route 1+2+3 · 2 Nächte\nRestonica-Schlucht, Canyoning Tavignano\nCitadelle, korsisches Bergherz' },
-  { name: 'Bavella / Zonza', lat: 41.735, lon: 9.168, type: 'stop', col: '#2a6b8a', routes: [1,2], detail: 'Route 1+2 · 2–3 Nächte\nCol de Bavella, Trou de la Bombe\nCanyoning Pulischellu' },
-  { name: 'Bonifacio', lat: 41.388, lon: 9.160, type: 'stop', col: '#2a6b8a', routes: [1], detail: 'Route 1 · Stop 4 · 2 Nächte\nKlippen-Altstadt, Strände, Meereshöhlen' },
-  { name: 'Porto / Piana', lat: 42.268, lon: 8.705, type: 'stop', col: '#3a6349', routes: [2,3], detail: 'Route 2+3 · 2 Nächte\nCalanche de Piana (UNESCO)\nGorges de la Spelunca' },
-  { name: 'Solenzara', lat: 41.850, lon: 9.398, type: 'stop', col: '#c0694a', routes: [3], detail: 'Route 3 · Stop 3 · 3 Nächte\nCanyoning Solenzara-Tal\nBavella-Tagesausflug' },
+  { name: 'Calvi', lat: 42.558, lon: 8.757, type: 'stop', col: '#3a3f4a', routes: [1], detail: 'Route 1 · Stop 1 · 2 Nächte\nZitadelle, Plage de Calvi, Balagne-Dörfer' },
+  { name: 'Saint-Florent', lat: 42.680, lon: 9.306, type: 'stop', col: '#3a3f4a', routes: [4], detail: 'Route 4 · Stop 1 · 2 Nächte\nNebbio, Désert des Agriates\nPlage de Saleccia (Bootstrip), Patrimonio-Wein' },
+  { name: 'Corte', lat: 42.302, lon: 9.149, type: 'stop', col: '#3a3f4a', routes: [1,2,3,4], detail: 'Route 1+2+3+4 · 2 Nächte\nRestonica-Schlucht, Canyoning Tavignano\nCitadelle, korsisches Bergherz' },
+  { name: 'Bavella / Zonza', lat: 41.735, lon: 9.168, type: 'stop', col: '#3a3f4a', routes: [1,2], detail: 'Route 1+2 · 2–3 Nächte\nCol de Bavella, Trou de la Bombe\nCanyoning Pulischellu' },
+  { name: 'Bonifacio', lat: 41.388, lon: 9.160, type: 'stop', col: '#3a3f4a', routes: [1,4], detail: 'Route 1+4 · 2 Nächte\nKlippen-Altstadt, Strände, Meereshöhlen' },
+  { name: 'Porto / Piana', lat: 42.268, lon: 8.705, type: 'stop', col: '#3a3f4a', routes: [2,3], detail: 'Route 2+3 · 2 Nächte\nCalanche de Piana (UNESCO)\nGorges de la Spelunca' },
+  { name: 'Solenzara', lat: 41.850, lon: 9.398, type: 'stop', col: '#3a3f4a', routes: [3,4], detail: 'Route 3+4 · 3 Nächte\nCanyoning Solenzara-Tal\nBavella-Tagesausflug (40 km / 55 Min.)' },
 ];
 
 function drawMap() {
@@ -1661,7 +1941,7 @@ function drawMap() {
   canvas.height = H;
 
   // Sea background
-  ctx.fillStyle = '#b8d8ee';
+  ctx.fillStyle = '#c8d8e8';
   ctx.fillRect(0, 0, W, H);
 
   // Draw mainland
@@ -1705,18 +1985,18 @@ function drawMap() {
 
   // ── Route lines ──
   const routeLines = {
-    1: { places: ['Bastia','Calvi','Corte','Bavella / Zonza','Bonifacio','Ajaccio'], color: '#2a6b8a' },
-    2: { places: ['Bastia','Corte','Bavella / Zonza','Ajaccio','Porto / Piana'], color: '#3a6349' },
-    3: { places: ['Ajaccio','Porto / Piana','Corte','Solenzara','Bastia'], color: '#c0694a' },
+    1: { places: ['Bastia','Calvi','Corte','Bavella / Zonza','Bonifacio','Ajaccio'], color: '#3a3f4a' },
+    2: { places: ['Bastia','Corte','Bavella / Zonza','Ajaccio','Porto / Piana'], color: '#3a3f4a' },
+    3: { places: ['Ajaccio','Porto / Piana','Corte','Solenzara','Bastia'], color: '#3a3f4a' },
+    4: { places: ['Bastia','Saint-Florent','Corte','Solenzara','Bonifacio','Ajaccio'], color: '#3a3f4a' },
   };
 
   // Ferry lines (dashed gold)
   const ferryLines = [
-    { from: 'Savona',  to: 'Île-Rousse', color: '#c9992a' },
-    { from: 'Savona',  to: 'Bastia',     color: '#c9992a' },
-    { from: 'Livorno', to: 'Bastia',     color: '#c9992a' },
-    { from: 'Nizza',   to: 'Île-Rousse', color: '#c9992a' },
-    { from: 'Toulon',  to: 'Ajaccio',    color: '#c9992a' },
+    { from: 'Savona',  to: 'Bastia',     color: '#3a3f4a' },
+    { from: 'Livorno', to: 'Bastia',     color: '#3a3f4a' },
+    { from: 'Toulon',  to: 'Ajaccio',    color: '#3a3f4a' },
+    { from: 'Marseille', to: 'Ajaccio',   color: '#3a3f4a' },
   ];
 
   function getPlaceXY(name) {
@@ -1760,9 +2040,9 @@ function drawMap() {
 
   // Zürich → ferry ports (grey dashed)
   ctx.setLineDash([3, 4]);
-  ctx.strokeStyle = '#9999aa';
+  ctx.strokeStyle = '#8a8f9a';
   ctx.lineWidth = 1.0;
-  ['Savona','Livorno','Nizza','Toulon'].forEach(fn => {
+  ['Savona','Livorno','Nizza','Toulon','Marseille'].forEach(fn => {
     const z = getPlaceXY('Zürich');
     const f = getPlaceXY(fn);
     if (!z || !f) return;
@@ -1790,23 +2070,23 @@ function drawMap() {
       ctx.fillText('ZH', x, y);
     } else if (p.type === 'ferry') {
       // Mainland ferry port – diamond
-      ctx.fillStyle = '#d4a843';
+      ctx.fillStyle = '#3a3f4a';
       ctx.beginPath();
       ctx.moveTo(x, y-7); ctx.lineTo(x+7, y); ctx.lineTo(x, y+7); ctx.lineTo(x-7, y);
       ctx.closePath(); ctx.fill();
-      ctx.strokeStyle = '#8a6010'; ctx.lineWidth = 1; ctx.stroke();
+      ctx.strokeStyle = '#1e2128'; ctx.lineWidth = 1; ctx.stroke();
     } else if (p.type === 'port') {
       // Island port (ferry) – anchor symbol via filled diamond + ring
       const highlight = activeRoute !== 0 && p.routes.includes(activeRoute);
       const r = highlight ? 8 : 6;
-      ctx.fillStyle = '#d4a843';
+      ctx.fillStyle = '#3a3f4a';
       ctx.beginPath();
       ctx.moveTo(x, y-r); ctx.lineTo(x+r, y); ctx.lineTo(x, y+r); ctx.lineTo(x-r, y);
       ctx.closePath(); ctx.fill();
-      ctx.strokeStyle = '#8a6010'; ctx.lineWidth = 1.2; ctx.stroke();
+      ctx.strokeStyle = '#1e2128'; ctx.lineWidth = 1.2; ctx.stroke();
     } else {
       // Stop – coloured circle
-      const col = p.col || '#c0694a';
+      const col = p.col || '#3a3f4a';
       const highlight = activeRoute !== 0 && p.routes.includes(activeRoute);
       const r = highlight ? 10 : 7;
       ctx.fillStyle = 'white';
@@ -1814,7 +2094,7 @@ function drawMap() {
       ctx.fillStyle = col;
       ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI*2); ctx.fill();
       if (highlight) {
-        ctx.strokeStyle = col; ctx.lineWidth = 2;
+        ctx.strokeStyle = '#3a3f4a'; ctx.lineWidth = 2;
         ctx.beginPath(); ctx.arc(x, y, r+5, 0, Math.PI*2); ctx.stroke();
       }
     }
@@ -1826,6 +2106,7 @@ function drawMap() {
     ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
     let lx = x + 11, ly = y;
     // Custom label offsets to avoid overlaps
+    if (p.name === 'Marseille')    { ctx.textAlign='right'; lx = x - 9; ly = y + 10; }
     if (p.name === 'Toulon')       { ctx.textAlign='right'; lx = x - 9; }
     if (p.name === 'Nizza')        { ctx.textAlign='right'; lx = x - 9; }
     if (p.name === 'Ajaccio')      { ctx.textAlign='right'; lx = x - 9; }
@@ -1833,7 +2114,7 @@ function drawMap() {
     if (p.name === 'Bonifacio')    { ctx.textAlign='right'; lx = x - 9; ly = y + 1; }
     if (p.name === 'Solenzara')    { lx = x + 11; ly = y + 1; }
     if (p.name === 'Bastia')       { lx = x + 9; }
-    if (p.name === 'Île-Rousse')   { lx = x + 9; ly = y - 10; }
+    if (p.name === 'Saint-Florent'){ lx = x + 9; ly = y - 10; }
     if (p.name === 'Bavella / Zonza') { ctx.textAlign='right'; lx = x - 9; }
     ctx.fillText(p.name, lx, ly);
     ctx.globalAlpha = 1.0;
@@ -1841,14 +2122,14 @@ function drawMap() {
 
   // Island label
   ctx.globalAlpha = 0.35;
-  ctx.fillStyle = '#2e5c3a';
+  ctx.fillStyle = '#3a5042';
   ctx.font = 'italic bold 14px Georgia, serif';
   ctx.textAlign = 'center';
   const [kx, ky] = geoToXY(42.15, 9.05, W, H);
   ctx.fillText('KORSIKA', kx, ky);
 
   // Sea label
-  ctx.fillStyle = '#1a5276';
+  ctx.fillStyle = '#3a4a5a';
   ctx.font = 'italic 11px Lato, sans-serif';
   const [mx, my] = geoToXY(41.70, 8.05, W, H);
   ctx.fillText('Tyrrhenisches Meer', mx, my);
